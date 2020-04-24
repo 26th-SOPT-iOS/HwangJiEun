@@ -62,7 +62,7 @@
 - ### 전체 화면 구성
 
 <div style="text-align:left;">
-  <img src="./images/firstAssignmentLoginFullShot.png" width="900" height="400">
+  <img src="./images/firstAssignmentLoginFullShot.png" width="980" height="500">
 </div>
 
 <br>
@@ -127,7 +127,7 @@
 >       }
 >   ```
 >
->   바로 loginIdTextField.text = loginId으로 넣지 않은 이유는 Optional 값 때문이다. Optional이란 Swift 언어만의 특징인데, 값이 있을 수도 있고 없을 수도 있다는 뜻이다. 값이 없을 수도 있기때문에, Optional Binding을 통해 확인한 후 대입해주어야 한다. 즉, Optional Binding이 이를 확인하는 과정이라 할 수 있다.
+> - 바로 loginIdTextField.text = loginId으로 넣지 않은 이유는 Optional 값 때문이다. Optional이란 Swift 언어만의 특징인데, 값이 있을 수도 있고 없을 수도 있다는 뜻이다. 값이 없을 수도 있기때문에, Optional Binding을 통해 확인한 후 대입해주어야 한다. 즉, Optional Binding이 이를 확인하는 과정이라 할 수 있다.
 >
 >   <br>	
 >
@@ -153,25 +153,36 @@
 
 #### 4️⃣ dismiss해서 rootViewController로 돌아가기</u>
 
->- 로그아웃 버튼을 누를 때 dismiss가 실행되는데, dismiss가 실행되기 전에 로그아웃 뷰를 호출한 뷰컨트롤러(presentingVC)를 루트뷰컨트롤러로 바꿔주면 dismiss 실행 후 루트뷰컨트롤러(메인화면)가 나타나게 된다.
+>- #### **처음에 들었던 의문점** 😭
+>
+>  👉🏻 메인화면에서 아이디 비밀번호를 누른 후 로그인하기 버튼을 눌러서 로그인뷰로 가면 그 뷰가 modal형태로 뜬다. 그렇게 되면 로그아웃 버튼을 누를 때 dismiss를 해서 메인화면으로 돌아올 수 있다. ❗️그런데 **'<u>회원가입하기 과정이 추가</u>'**되었을 때 문제가 생기게 되었다.❗️
+>
+>  👉🏻 그 연결 과정이 "**메인 뷰** --(push로 연결)--> **회원가입 뷰** --(코드로 modal 연결)--> **로그인정보가 나타나는 뷰**" 이기 때문이었다. 
+>
+>  1. 뒤에 회원가입 뷰가 남아있는 상황에서 modal로 로그인 정보가 나타나는 뷰가 뜨게 된 상황에서 로그아웃 버튼을 눌러서 dismiss를 하게 되면 회원가입 뷰가 나타날 것이다.
+>  2. 이 때, 메인화면과 회원가입 뷰는 '<u>**push segue**</u>'로 연결된 상태이기 때문에 dismiss를 해서는 이전 view(메인화면)로 돌아갈 수 없다.
+>  3. 그럼 dismiss를 이용해서 push segue로 연결된 뷰를 어떻게 되돌릴 것이냐? 라는 고민을 하게 되었다.
+>
+>
 >
 >```swift
->@IBAction func logoutBtn(_ sender: Any) {
->  guard let presentingVC = self.presentingViewController else { return }
->        
->  let navigationController = presentingVC is UINavigationController ? presentingVC as? UINavigationController : presentingVC.navigationController
->       navigationController?.popToRootViewController(animated: false)
+> guard let presentingVC = self.presentingViewController else { return }
+>       
+> let navigationController = presentingVC is UINavigationController ? presentingVC as? UINavigationController : presentingVC.navigationController
+>      navigationController?.popToRootViewController(animated: false)
 >
->  self.dismiss(animated: true, completion: nil)
->}
+> self.dismiss(animated: true, completion: nil)
 >```
+>
+>- 현재 presentingVC는 JoinViewController이다. 따라서 JoinViewController의 NavigationController내에서 pop(popToRootViewController)을 해서 presentingVC를 RootViewController(메인 뷰)로 되돌린다.
+>  - dismiss가 실행되고 나면 자신을 호출한 뷰 컨트롤러가 나타나게 되는데, dismiss가 실행되기 전에 현재 로그아웃 뷰를 호출한 뷰 컨트롤러를 회원가입 뷰에서 메인 뷰로 되돌렸기 때문에 dismiss를 실행하고 나서 메인 뷰가 뜨게 된다.
+>
+>
+>
+>< 지식 나눔📚⭐️>
 >
 >- presentedViewController : 자신이 호출한 ViewController
 >- presentingViewController: 자신을 호출한 ViewController
->
->🔥  현재 presentingVC는 JoinViewController이다. 따라서 JoinViewController의 NavigationController내에서 pop(popToRootViewController)을 해서 presentingVC를 RootViewController로 옮긴다.
->
->- dismiss가 실행되고 나면 자신을 호출한 뷰 컨트롤러가 나타나게 되는데, dismiss가 실행되기 전에 현재 로그아웃 뷰를 호출한 뷰 컨트롤러를 회원가입 뷰에서 메인 뷰로 바꿔줬기 때문에 dismiss를 실행하고 나서 메인 뷰가 뜨게 된다!
 
 <br>
 

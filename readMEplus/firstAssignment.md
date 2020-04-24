@@ -23,8 +23,6 @@
 
 - ### 구현방법
 
-  <br>
-
 > #### ***❌ 코드 사용 ❌***
 >
 > #### 1️⃣ **먼저** <u>"Editor -> Embed in -> navigation controller"</u> 로 navigation controller를 추가한다. 

@@ -1,3 +1,7 @@
+<br>
+
+<br>
+
 # 1️⃣주차 과제📚🍎
 
 ### ✅ 목차 ✅
@@ -7,11 +11,11 @@
 
 -----------
 
-
+<br>
 
 ## 1. Navigation 활용 화면이동
 
-
+<br>
 
 - ### 전체 화면 구성
 
@@ -19,7 +23,7 @@
   <img src="./images/firstAssignment01FullShot.png" width="600" height="600">
 </div>
 
-
+<br>
 
 - ### 구현방법
 
@@ -37,7 +41,7 @@
 >
 > #### 2️⃣ Purple Screen, Red Screen 이라는 2개의 버튼을 생성한다.
 >
-> 
+> <br>
 >
 > #### 3️⃣ 각 버튼을 "<u>ctrl+드래그</u>"해서 다음 뷰로 끌어다가 놓은 다음에 Action을 show segue로 연결해서 버튼을 클릭했을 때 다음 뷰로 이동하게 한다.
 >
@@ -45,13 +49,11 @@
 > <img src="./images/howtomakeActionSegue.png" width="300" height="300">
 > </div>
 
+<br>
 
+<br>
 
-
-
-
-
-
+<br>
 
 ## 2. 로그인 화면 구현
 
@@ -59,7 +61,7 @@
 
 #### <u>화면 간 데이터 전달하기 && dismiss해서 rootViewController로 돌아가기</u> 
 
-
+<br>
 
 - ### 전체 화면 구성
 
@@ -67,7 +69,7 @@
   <img src="./images/firstAssignmentLoginFullShot.png" width="900" height="400">
 </div>
 
-
+<br>
 
 - ### 구현 방법
 
@@ -79,9 +81,9 @@
 >
 >   - 회원가입 뷰의 상단에 < Back 버튼이 생김!!!
 
+<br>
 
-
-
+<br>
 
 #### 2️⃣ 코드로 viewController 연결하는 방법
 
@@ -100,15 +102,15 @@
 >  }
 > ```
 
+<br>
 
-
-
+<br>
 
 #### 3️⃣ 화면 간 데이터 전달하는 방법
 
 - <u>👇🏻그 예로 메인 화면과 로그인 화면의 데이터 전달 과정을 설명</u> 
 
-  
+  <br>
 
 >1. ###### 로그인 화면에 메인 화면으로부터 전달되는 값을 받기 위한 변수가 필요하기 때문에 로그인 뷰에 연결된 custom class 내에 변수를 선언해준다.
 >
@@ -117,7 +119,7 @@
 >   var loginPw:String?
 >   ```
 >
->   
+>   <br>
 >
 >2. ###### 메인 화면으로부터 받은 값을 로그인 화면의 변수에 할당해야 한다.
 >
@@ -133,7 +135,7 @@
 >
 >   바로 loginIdTextField.text = loginId으로 넣지 않은 이유는 Optional 값 때문이다. Optional이란 Swift 언어만의 특징인데, 값이 있을 수도 있고 없을 수도 있다는 뜻이다. 값이 없을 수도 있기때문에, Optional Binding을 통해 확인한 후 대입해주어야 한다. 즉, Optional Binding이 이를 확인하는 과정이라 할 수 있다.
 >
->   ​			
+>   <br>	
 >
 >3. ######  메인 화면에서 로그인화면으로 값을 넘겨주는 코드 작성.
 >
@@ -153,7 +155,7 @@
 >       }
 >   ```
 
-
+<br>
 
 #### 4️⃣ dismiss해서 rootViewController로 돌아가기</u>
 
@@ -177,3 +179,6 @@
 >
 >- dismiss가 실행되고 나면 자신을 호출한 뷰 컨트롤러가 나타나게 되는데, dismiss가 실행되기 전에 현재 로그아웃 뷰를 호출한 뷰 컨트롤러를 회원가입 뷰에서 메인 뷰로 바꿔줬기 때문에 dismiss를 실행하고 나서 메인 뷰가 뜨게 된다!
 
+<br>
+
+<br>

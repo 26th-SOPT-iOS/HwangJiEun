@@ -7,7 +7,9 @@
 
 -----
 
+##### ❗️공유해요 👉🏻 [.DS_store 지우는 방법](./readMEplus/deleteDSstore.md )
 
+<br>
 
 ### 👇🏻 과제 설명 보러가기
 

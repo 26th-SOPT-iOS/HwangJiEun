@@ -60,7 +60,7 @@ viewWillApper는 뷰가 나타날 때마다 처리되는 함수이므로 이후 
 
 
 
-<img style="max-height:100%; max-width:100%;">
+<video style="max-height:100%; max-width:100%;">
 
-<video src="./images/4weekAssignmentVideo.mov" width="300" height="700">
+<video src="./images/4weekAssignmentVideo.mov" width="300" height="700"/>
 

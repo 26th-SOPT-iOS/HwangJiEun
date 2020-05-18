@@ -73,7 +73,7 @@ class FriendsViewController: UIViewController {
         
         
         
-        //위에 만들어놓은 빈 배열인 profileList에 profile1(데이터)을 넣어준다.
+        //위에 만들어놓은 빈 배열인 profileList에 데이터들이렇여을 넣어준다.
         profileList = [profile1,profile2,profile3,profile4,profile5,profile6,profile7,profile9,profile10,profile11,profile12,profile13]
         myList = [me]
         

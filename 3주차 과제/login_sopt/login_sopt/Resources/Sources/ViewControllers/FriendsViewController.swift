@@ -67,13 +67,13 @@ class FriendsViewController: UIViewController {
         let profile9 = FreindsInformation(profileImg: #imageLiteral(resourceName: "mike.jpg"),profileName: "마이크와죠스키", statusLabel: "Nothing is more important than our friendship.")
         let profile10 = FreindsInformation(profileImg:#imageLiteral(resourceName: "sherly.jpg") , profileName: "설리반", statusLabel: "Kitty has to go.")
         let profile11 = FreindsInformation(profileImg: #imageLiteral(resourceName: "boo.jpg"), profileName: "부", statusLabel: " booo")
-        let profile12 = FreindsInformation(profileImg: #imageLiteral(resourceName: "profile1Img@3x.jpg"), profileName: "뽀애앵", statusLabel: "집에 가고싶다")
-        let profile13 = FreindsInformation(profileImg:#imageLiteral(resourceName: "profile4Img@3x.jpg") , profileName: "뽀림이", statusLabel: "총총총총총총총총총")
+        let profile12 = FreindsInformation(profileImg:#imageLiteral(resourceName: "profile9Img@3x.jpg") , profileName: "뽀애앵", statusLabel: "집에 가고싶다")
+        let profile13 = FreindsInformation(profileImg:#imageLiteral(resourceName: "profile8Img@3x.jpg") , profileName: "뽀림이", statusLabel: "총총총총총총총총총")
    
         
         
         
-        //위에 만들어놓은 빈 배열인 profileList에 데이터들이렇여을 넣어준다.
+        //위에 만들어놓은 빈 배열인 profileList에 profile1(데이터)을 넣어준다.
         profileList = [profile1,profile2,profile3,profile4,profile5,profile6,profile7,profile9,profile10,profile11,profile12,profile13]
         myList = [me]
         

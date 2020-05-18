@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,13 +28,13 @@
 		33054683246DB518000B8975 /* buzz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3305467E246DB518000B8975 /* buzz.jpg */; };
 		33054684246DB518000B8975 /* sherly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3305467F246DB518000B8975 /* sherly.jpg */; };
 		33054686246DB7A0000B8975 /* beauty_1585659625845.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 33054685246DB7A0000B8975 /* beauty_1585659625845.jpeg */; };
-		339B068F246F15F1001395C2 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B068E246F15F1001395C2 /* APIConstants.swift */; };
-		339B0692246F16B0001395C2 /* SigninData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B0691246F16B0001395C2 /* SigninData.swift */; };
-		339B0694246F1825001395C2 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B0693246F1825001395C2 /* NetworkResult.swift */; };
-		339B0697246F18EC001395C2 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B0696246F18EC001395C2 /* LoginService.swift */; };
-		33A7FFC8246FAEA5001D3414 /* soptLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A7FFC5246FAEA5001D3414 /* soptLogo@2x.png */; };
-		33A7FFC9246FAEA5001D3414 /* soptLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A7FFC6246FAEA5001D3414 /* soptLogo.png */; };
-		33A7FFCA246FAEA5001D3414 /* soptLogo@2x 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A7FFC7246FAEA5001D3414 /* soptLogo@2x 2.png */; };
+		33A7FFDC246FB876001D3414 /* soptLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A7FFD9246FB875001D3414 /* soptLogo.png */; };
+		33A7FFDD246FB876001D3414 /* soptLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A7FFDA246FB875001D3414 /* soptLogo@2x.png */; };
+		33A7FFDE246FB876001D3414 /* soptLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A7FFDB246FB875001D3414 /* soptLogo@3x.png */; };
+		33A7FFE1246FB970001D3414 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A7FFE0246FB970001D3414 /* APIConstants.swift */; };
+		33A7FFE3246FBB7F001D3414 /* SigninData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A7FFE2246FBB7F001D3414 /* SigninData.swift */; };
+		33A7FFE5246FBCA9001D3414 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A7FFE4246FBCA9001D3414 /* NetworkResult.swift */; };
+		33A7FFE7246FBCE6001D3414 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A7FFE6246FBCE6001D3414 /* LoginService.swift */; };
 		33AE406B246BE51900D9EA76 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE406A246BE51900D9EA76 /* FriendsViewController.swift */; };
 		33AE406D246BE55200D9EA76 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE406C246BE55200D9EA76 /* FriendsTableViewCell.swift */; };
 		33AE406F246BF18600D9EA76 /* FriendsInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE406E246BF18600D9EA76 /* FriendsInformation.swift */; };
@@ -42,7 +42,9 @@
 		33C00C392458A71F00B39BC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C00C382458A71F00B39BC5 /* AppDelegate.swift */; };
 		33C00C3B2458A71F00B39BC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C00C3A2458A71F00B39BC5 /* SceneDelegate.swift */; };
 		33C00C3D2458A71F00B39BC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C00C3C2458A71F00B39BC5 /* ViewController.swift */; };
+		33C00C402458A71F00B39BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C00C3E2458A71F00B39BC5 /* Main.storyboard */; };
 		33C00C422458A72000B39BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C00C412458A72000B39BC5 /* Assets.xcassets */; };
+		33C00C452458A72000B39BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C00C432458A72000B39BC5 /* LaunchScreen.storyboard */; };
 		33C00C5324593BF700B39BC5 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C00C5224593BF700B39BC5 /* JoinViewController.swift */; };
 		33C00C552459400000B39BC5 /* IMG_2156.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 33C00C542459400000B39BC5 /* IMG_2156.PNG */; };
 		33C00C572459443400B39BC5 /* oursoptBgImg@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33C00C562459443400B39BC5 /* oursoptBgImg@3x.jpg */; };
@@ -61,10 +63,12 @@
 		33C00C74245AC9A200B39BC5 /* KoPubWorld Batang_Pro Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 33C00C6E245AC9A100B39BC5 /* KoPubWorld Batang_Pro Light.otf */; };
 		33C00C75245AC9A200B39BC5 /* KoPubWorld Dotum_Pro Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 33C00C6F245AC9A100B39BC5 /* KoPubWorld Dotum_Pro Bold.otf */; };
 		33C00C79245BD14500B39BC5 /* StretchyHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C00C78245BD14500B39BC5 /* StretchyHeaderController.swift */; };
-		65F43735B164528FA0C80321 /* Pods_login_sopt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C64B50FD4D8BDACA664BFDA /* Pods_login_sopt.framework */; };
+		4D935A08167D59B849FC0FBE /* Pods_login_sopt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7CA8F7A42CFEB3B4BD9D31 /* Pods_login_sopt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D5B75A26899EB0DBD2E1BF9 /* Pods-login_sopt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login_sopt.debug.xcconfig"; path = "Target Support Files/Pods-login_sopt/Pods-login_sopt.debug.xcconfig"; sourceTree = "<group>"; };
+		2659F730F9E26FEBBEEA75B8 /* Pods-login_sopt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login_sopt.release.xcconfig"; path = "Target Support Files/Pods-login_sopt/Pods-login_sopt.release.xcconfig"; sourceTree = "<group>"; };
 		3305464B246C7736000B8975 /* profile8Img@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "profile8Img@3x.jpg"; path = "login_sopt/profile8Img@3x.jpg"; sourceTree = SOURCE_ROOT; };
 		3305464C246C7736000B8975 /* profile3Img@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "profile3Img@3x.jpg"; path = "login_sopt/profile3Img@3x.jpg"; sourceTree = SOURCE_ROOT; };
 		3305464D246C7736000B8975 /* profile9Img@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "profile9Img@3x.jpg"; path = "login_sopt/profile9Img@3x.jpg"; sourceTree = SOURCE_ROOT; };
@@ -86,29 +90,29 @@
 		3305467E246DB518000B8975 /* buzz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = buzz.jpg; path = login_sopt/buzz.jpg; sourceTree = SOURCE_ROOT; };
 		3305467F246DB518000B8975 /* sherly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sherly.jpg; path = login_sopt/sherly.jpg; sourceTree = SOURCE_ROOT; };
 		33054685246DB7A0000B8975 /* beauty_1585659625845.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beauty_1585659625845.jpeg; path = login_sopt/beauty_1585659625845.jpeg; sourceTree = SOURCE_ROOT; };
-		339B068E246F15F1001395C2 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIConstants.swift; path = login_sopt/APIConstants.swift; sourceTree = SOURCE_ROOT; };
-		339B0691246F16B0001395C2 /* SigninData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SigninData.swift; path = ../API/SigninData.swift; sourceTree = "<group>"; };
-		339B0693246F1825001395C2 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkResult.swift; path = ../API/NetworkResult.swift; sourceTree = "<group>"; };
-		339B0696246F18EC001395C2 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
-		33A7FFC5246FAEA5001D3414 /* soptLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soptLogo@2x.png"; sourceTree = "<group>"; };
-		33A7FFC6246FAEA5001D3414 /* soptLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soptLogo.png; sourceTree = "<group>"; };
-		33A7FFC7246FAEA5001D3414 /* soptLogo@2x 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soptLogo@2x 2.png"; sourceTree = "<group>"; };
-		33A7FFD1246FB570001D3414 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = login_sopt/Storyboards/Main.storyboard; sourceTree = "<group>"; };
-		33A7FFD3246FB571001D3414 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = login_sopt/login_sopt/Storyboards/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		33AE406A246BE51900D9EA76 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendsViewController.swift; path = ../FriendstableView/FriendsViewController.swift; sourceTree = "<group>"; };
-		33AE406C246BE55200D9EA76 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendsTableViewCell.swift; path = ../FriendsTableViewCell.swift; sourceTree = "<group>"; };
-		33AE406E246BF18600D9EA76 /* FriendsInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendsInformation.swift; path = ../FriendsInformation.swift; sourceTree = "<group>"; };
+		33A7FFD9246FB875001D3414 /* soptLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soptLogo.png; path = login_sopt/soptLogo.png; sourceTree = SOURCE_ROOT; };
+		33A7FFDA246FB875001D3414 /* soptLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "soptLogo@2x.png"; path = "login_sopt/soptLogo@2x.png"; sourceTree = SOURCE_ROOT; };
+		33A7FFDB246FB875001D3414 /* soptLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "soptLogo@3x.png"; path = "login_sopt/soptLogo@3x.png"; sourceTree = SOURCE_ROOT; };
+		33A7FFE0246FB970001D3414 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		33A7FFE2246FBB7F001D3414 /* SigninData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninData.swift; sourceTree = "<group>"; };
+		33A7FFE4246FBCA9001D3414 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		33A7FFE6246FBCE6001D3414 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		33AE406A246BE51900D9EA76 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		33AE406C246BE55200D9EA76 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		33AE406E246BF18600D9EA76 /* FriendsInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsInformation.swift; sourceTree = "<group>"; };
 		33AE4070246BF46200D9EA76 /* IMG_0737.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0737.jpeg; path = ../fonts/IMG_0737.jpeg; sourceTree = "<group>"; };
 		33C00C352458A71F00B39BC5 /* login_sopt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = login_sopt.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		33C00C382458A71F00B39BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
-		33C00C3A2458A71F00B39BC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
-		33C00C3C2458A71F00B39BC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		33C00C382458A71F00B39BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33C00C3A2458A71F00B39BC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33C00C3C2458A71F00B39BC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33C00C3F2458A71F00B39BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33C00C412458A72000B39BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33C00C442458A72000B39BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33C00C462458A72000B39BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33C00C5224593BF700B39BC5 /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JoinViewController.swift; path = ../JoinViewController.swift; sourceTree = "<group>"; };
+		33C00C5224593BF700B39BC5 /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
 		33C00C542459400000B39BC5 /* IMG_2156.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2156.PNG; sourceTree = "<group>"; };
 		33C00C562459443400B39BC5 /* oursoptBgImg@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "oursoptBgImg@3x.jpg"; sourceTree = "<group>"; };
-		33C00C5824594B5700B39BC5 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScrollViewController.swift; path = ../ScrollViewController.swift; sourceTree = "<group>"; };
+		33C00C5824594B5700B39BC5 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		33C00C5A24594F8200B39BC5 /* 9235840225230627344610312982063520952090624N@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9235840225230627344610312982063520952090624N@2x.jpg"; sourceTree = "<group>"; };
 		33C00C5B24594F8200B39BC5 /* 9213383125230634377942948539378523368849408N@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9213383125230634377942948539378523368849408N@2x.jpg"; sourceTree = "<group>"; };
 		33C00C5C24594F8200B39BC5 /* 9229480325230625777943802058411231781322752N@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9229480325230625777943802058411231781322752N@2x.jpg"; sourceTree = "<group>"; };
@@ -122,10 +126,8 @@
 		33C00C6D245AC9A100B39BC5 /* KoPubWorld Dotum_Pro Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KoPubWorld Dotum_Pro Medium.otf"; path = "login_sopt/KoPubWorld Dotum_Pro Medium.otf"; sourceTree = SOURCE_ROOT; };
 		33C00C6E245AC9A100B39BC5 /* KoPubWorld Batang_Pro Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KoPubWorld Batang_Pro Light.otf"; path = "login_sopt/KoPubWorld Batang_Pro Light.otf"; sourceTree = SOURCE_ROOT; };
 		33C00C6F245AC9A100B39BC5 /* KoPubWorld Dotum_Pro Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KoPubWorld Dotum_Pro Bold.otf"; path = "login_sopt/KoPubWorld Dotum_Pro Bold.otf"; sourceTree = SOURCE_ROOT; };
-		33C00C78245BD14500B39BC5 /* StretchyHeaderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StretchyHeaderController.swift; path = ../StretchyHeaderController.swift; sourceTree = "<group>"; };
-		5C64B50FD4D8BDACA664BFDA /* Pods_login_sopt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_login_sopt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		70B14D1427437F34819A4C3F /* Pods-login_sopt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login_sopt.release.xcconfig"; path = "Target Support Files/Pods-login_sopt/Pods-login_sopt.release.xcconfig"; sourceTree = "<group>"; };
-		7BE95EDA4C61D1E922EC1EC3 /* Pods-login_sopt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login_sopt.debug.xcconfig"; path = "Target Support Files/Pods-login_sopt/Pods-login_sopt.debug.xcconfig"; sourceTree = "<group>"; };
+		33C00C78245BD14500B39BC5 /* StretchyHeaderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderController.swift; sourceTree = "<group>"; };
+		FC7CA8F7A42CFEB3B4BD9D31 /* Pods_login_sopt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_login_sopt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,25 +135,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F43735B164528FA0C80321 /* Pods_login_sopt.framework in Frameworks */,
+				4D935A08167D59B849FC0FBE /* Pods_login_sopt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		339B0695246F1838001395C2 /* APIService */ = {
+		0884724CC7BE1843906A6721 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				339B0696246F18EC001395C2 /* LoginService.swift */,
-				339B068E246F15F1001395C2 /* APIConstants.swift */,
-				339B0691246F16B0001395C2 /* SigninData.swift */,
-				339B0693246F1825001395C2 /* NetworkResult.swift */,
+				1D5B75A26899EB0DBD2E1BF9 /* Pods-login_sopt.debug.xcconfig */,
+				2659F730F9E26FEBBEEA75B8 /* Pods-login_sopt.release.xcconfig */,
 			);
-			path = APIService;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		33A7FFC1246FACBD001D3414 /* ViewControllers */ = {
+		33A7FFD4246FB6ED001D3414 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33A7FFDF246FB91D001D3414 /* API */,
+				33C00C69245AC67A00B39BC5 /* fonts */,
+				33C00C68245AC66300B39BC5 /* imaged */,
+				33C00C412458A72000B39BC5 /* Assets.xcassets */,
+				33A7FFD5246FB70A001D3414 /* Storyboards */,
+				33A7FFD6246FB728001D3414 /* Sources */,
+				33A7FFD8246FB76D001D3414 /* Cell */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		33A7FFD5246FB70A001D3414 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				33C00C3E2458A71F00B39BC5 /* Main.storyboard */,
+				33C00C432458A72000B39BC5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		33A7FFD6246FB728001D3414 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				33C00C382458A71F00B39BC5 /* AppDelegate.swift */,
+				33C00C3A2458A71F00B39BC5 /* SceneDelegate.swift */,
+				33A7FFD7246FB73C001D3414 /* ViewControllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		33A7FFD7246FB73C001D3414 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				33AE406A246BE51900D9EA76 /* FriendsViewController.swift */,
@@ -163,33 +197,24 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		33A7FFC3246FACEC001D3414 /* Resources */ = {
+		33A7FFD8246FB76D001D3414 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				33C00C69245AC67A00B39BC5 /* fonts */,
-				33C00C68245AC66300B39BC5 /* imaged */,
-				33C00C412458A72000B39BC5 /* Assets.xcassets */,
-				33A7FFC4246FAD29001D3414 /* Sources */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		33A7FFC4246FAD29001D3414 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				33C00C382458A71F00B39BC5 /* AppDelegate.swift */,
-				33C00C3A2458A71F00B39BC5 /* SceneDelegate.swift */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		33A7FFCB246FAF9C001D3414 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				33AE406E246BF18600D9EA76 /* FriendsInformation.swift */,
 				33AE406C246BE55200D9EA76 /* FriendsTableViewCell.swift */,
+				33AE406E246BF18600D9EA76 /* FriendsInformation.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		33A7FFDF246FB91D001D3414 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				33A7FFE0246FB970001D3414 /* APIConstants.swift */,
+				33A7FFE2246FBB7F001D3414 /* SigninData.swift */,
+				33A7FFE4246FBCA9001D3414 /* NetworkResult.swift */,
+				33A7FFE6246FBCE6001D3414 /* LoginService.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 		33C00C2C2458A71F00B39BC5 = {
@@ -197,8 +222,8 @@
 			children = (
 				33C00C372458A71F00B39BC5 /* login_sopt */,
 				33C00C362458A71F00B39BC5 /* Products */,
-				4594EE98E5B75A080A378033 /* Pods */,
-				DD1BB9EE790A397691222EFB /* Frameworks */,
+				0884724CC7BE1843906A6721 /* Pods */,
+				A81FCBBE6793AB7DB772DC7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -213,12 +238,7 @@
 		33C00C372458A71F00B39BC5 /* login_sopt */ = {
 			isa = PBXGroup;
 			children = (
-				33A7FFD3246FB571001D3414 /* LaunchScreen.storyboard */,
-				33A7FFD1246FB570001D3414 /* Main.storyboard */,
-				339B0695246F1838001395C2 /* APIService */,
-				33A7FFC3246FACEC001D3414 /* Resources */,
-				33A7FFC1246FACBD001D3414 /* ViewControllers */,
-				33A7FFCB246FAF9C001D3414 /* Cell */,
+				33A7FFD4246FB6ED001D3414 /* Resources */,
 				33C00C462458A72000B39BC5 /* Info.plist */,
 			);
 			path = login_sopt;
@@ -227,9 +247,9 @@
 		33C00C68245AC66300B39BC5 /* imaged */ = {
 			isa = PBXGroup;
 			children = (
-				33A7FFC6246FAEA5001D3414 /* soptLogo.png */,
-				33A7FFC7246FAEA5001D3414 /* soptLogo@2x 2.png */,
-				33A7FFC5246FAEA5001D3414 /* soptLogo@2x.png */,
+				33A7FFD9246FB875001D3414 /* soptLogo.png */,
+				33A7FFDA246FB875001D3414 /* soptLogo@2x.png */,
+				33A7FFDB246FB875001D3414 /* soptLogo@3x.png */,
 				33054685246DB7A0000B8975 /* beauty_1585659625845.jpeg */,
 				3305467D246DB518000B8975 /* boo.jpg */,
 				3305467E246DB518000B8975 /* buzz.jpg */,
@@ -278,19 +298,10 @@
 			path = fonts;
 			sourceTree = "<group>";
 		};
-		4594EE98E5B75A080A378033 /* Pods */ = {
+		A81FCBBE6793AB7DB772DC7F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7BE95EDA4C61D1E922EC1EC3 /* Pods-login_sopt.debug.xcconfig */,
-				70B14D1427437F34819A4C3F /* Pods-login_sopt.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		DD1BB9EE790A397691222EFB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5C64B50FD4D8BDACA664BFDA /* Pods_login_sopt.framework */,
+				FC7CA8F7A42CFEB3B4BD9D31 /* Pods_login_sopt.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -302,11 +313,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33C00C492458A72000B39BC5 /* Build configuration list for PBXNativeTarget "login_sopt" */;
 			buildPhases = (
-				318F51B0FA52AB5E1B36094F /* [CP] Check Pods Manifest.lock */,
+				F76D2E494CD4B4A1F3CA3E00 /* [CP] Check Pods Manifest.lock */,
 				33C00C312458A71F00B39BC5 /* Sources */,
 				33C00C322458A71F00B39BC5 /* Frameworks */,
 				33C00C332458A71F00B39BC5 /* Resources */,
-				7A3499ECD0B39FE96F94D673 /* [CP] Embed Pods Frameworks */,
+				42E97B0CFC02B7092A037ACD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -359,14 +370,14 @@
 				33054658246C7737000B8975 /* profile2Img@3x.jpg in Resources */,
 				33C00C6124594F8200B39BC5 /* 9213383125230634377942948539378523368849408N@2x.jpg in Resources */,
 				33054683246DB518000B8975 /* buzz.jpg in Resources */,
-				33A7FFC8246FAEA5001D3414 /* soptLogo@2x.png in Resources */,
 				33054684246DB518000B8975 /* sherly.jpg in Resources */,
+				33C00C452458A72000B39BC5 /* LaunchScreen.storyboard in Resources */,
 				33054660246DA7D0000B8975 /* UzJoXr2V.jpg in Resources */,
 				3305465C246C872C000B8975 /* 814@3x.png in Resources */,
+				33A7FFDE246FB876001D3414 /* soptLogo@3x.png in Resources */,
 				3305467A246DB3C0000B8975 /* mike.jpg in Resources */,
 				33C00C422458A72000B39BC5 /* Assets.xcassets in Resources */,
 				33054656246C7737000B8975 /* profile7Img@3x.jpg in Resources */,
-				33A7FFCA246FAEA5001D3414 /* soptLogo@2x 2.png in Resources */,
 				33054654246C7737000B8975 /* profile3Img@3x.jpg in Resources */,
 				33C00C74245AC9A200B39BC5 /* KoPubWorld Batang_Pro Light.otf in Resources */,
 				33C00C6424594F8200B39BC5 /* 9188465425230637911275922235726328076697600N@2x.jpg in Resources */,
@@ -379,6 +390,7 @@
 				3305465F246DA7D0000B8975 /* 53DI1kjx_400x400.jpg in Resources */,
 				33054655246C7737000B8975 /* profile9Img@3x.jpg in Resources */,
 				3305466A246DAF0F000B8975 /* mrspotato.jpg in Resources */,
+				33A7FFDC246FB876001D3414 /* soptLogo.png in Resources */,
 				33C00C6524594F8200B39BC5 /* 9298934625230618844611168856475911587889152N@2x.jpg in Resources */,
 				33054653246C7737000B8975 /* profile8Img@3x.jpg in Resources */,
 				33C00C71245AC9A200B39BC5 /* KoPubWorld Batang_Pro Bold.otf in Resources */,
@@ -391,18 +403,36 @@
 				33C00C6224594F8200B39BC5 /* 9229480325230625777943802058411231781322752N@2x.jpg in Resources */,
 				33054686246DB7A0000B8975 /* beauty_1585659625845.jpeg in Resources */,
 				33C00C70245AC9A200B39BC5 /* KoPubWorld Batang_Pro Medium.otf in Resources */,
-				33A7FFC9246FAEA5001D3414 /* soptLogo.png in Resources */,
+				33C00C402458A71F00B39BC5 /* Main.storyboard in Resources */,
 				33054662246DAB85000B8975 /* alien.jpg in Resources */,
 				33054682246DB518000B8975 /* boo.jpg in Resources */,
 				3305466C246DAF60000B8975 /* jessi.jpg in Resources */,
 				33C00C572459443400B39BC5 /* oursoptBgImg@3x.jpg in Resources */,
+				33A7FFDD246FB876001D3414 /* soptLogo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		318F51B0FA52AB5E1B36094F /* [CP] Check Pods Manifest.lock */ = {
+		42E97B0CFC02B7092A037ACD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-login_sopt/Pods-login_sopt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-login_sopt/Pods-login_sopt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-login_sopt/Pods-login_sopt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F76D2E494CD4B4A1F3CA3E00 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -424,23 +454,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7A3499ECD0B39FE96F94D673 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-login_sopt/Pods-login_sopt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-login_sopt/Pods-login_sopt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-login_sopt/Pods-login_sopt-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -449,15 +462,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				33C00C3D2458A71F00B39BC5 /* ViewController.swift in Sources */,
-				339B0697246F18EC001395C2 /* LoginService.swift in Sources */,
+				33A7FFE7246FBCE6001D3414 /* LoginService.swift in Sources */,
 				33C00C392458A71F00B39BC5 /* AppDelegate.swift in Sources */,
 				33C00C5924594B5700B39BC5 /* ScrollViewController.swift in Sources */,
-				339B0694246F1825001395C2 /* NetworkResult.swift in Sources */,
+				33A7FFE5246FBCA9001D3414 /* NetworkResult.swift in Sources */,
 				33AE406D246BE55200D9EA76 /* FriendsTableViewCell.swift in Sources */,
 				33C00C79245BD14500B39BC5 /* StretchyHeaderController.swift in Sources */,
 				33AE406F246BF18600D9EA76 /* FriendsInformation.swift in Sources */,
-				339B0692246F16B0001395C2 /* SigninData.swift in Sources */,
-				339B068F246F15F1001395C2 /* APIConstants.swift in Sources */,
+				33A7FFE3246FBB7F001D3414 /* SigninData.swift in Sources */,
+				33A7FFE1246FB970001D3414 /* APIConstants.swift in Sources */,
 				33AE406B246BE51900D9EA76 /* FriendsViewController.swift in Sources */,
 				33C00C5324593BF700B39BC5 /* JoinViewController.swift in Sources */,
 				33C00C3B2458A71F00B39BC5 /* SceneDelegate.swift in Sources */,
@@ -465,6 +478,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33C00C3E2458A71F00B39BC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33C00C3F2458A71F00B39BC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33C00C432458A72000B39BC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33C00C442458A72000B39BC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		33C00C472458A72000B39BC5 /* Debug */ = {
@@ -583,7 +615,7 @@
 		};
 		33C00C4A2458A72000B39BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BE95EDA4C61D1E922EC1EC3 /* Pods-login_sopt.debug.xcconfig */;
+			baseConfigurationReference = 1D5B75A26899EB0DBD2E1BF9 /* Pods-login_sopt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -601,7 +633,7 @@
 		};
 		33C00C4B2458A72000B39BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70B14D1427437F34819A4C3F /* Pods-login_sopt.release.xcconfig */;
+			baseConfigurationReference = 2659F730F9E26FEBBEEA75B8 /* Pods-login_sopt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

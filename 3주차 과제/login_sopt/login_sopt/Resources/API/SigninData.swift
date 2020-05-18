@@ -8,15 +8,13 @@
 
 import Foundation
 
-
-//JSON타입 Decoding
 struct SigninData: Codable {
     var status: Int
     var success: Bool
     var message: String
     var data: TokenData?
     
-    enum  CodingKeys: String, CodingKey {
+    enum CodingKeys:String, CodingKey {
         case status = "status"
         case success = "success"
         case message = "message"
@@ -29,9 +27,8 @@ struct SigninData: Codable {
         message = (try? values.decode(String.self, forKey: .message)) ?? ""
         data = (try? values.decode(TokenData.self, forKey: .data)) ?? nil
     }
-  
 }
 
 struct TokenData: Codable {
-    var jwt: String
+    var jwt:String
 }

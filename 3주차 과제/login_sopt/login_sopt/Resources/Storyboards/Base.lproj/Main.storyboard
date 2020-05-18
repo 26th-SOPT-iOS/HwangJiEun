@@ -20,7 +20,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="soptLogo" translatesAutoresizingMaskIntoConstraints="NO" id="aeJ-9a-hce">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="soptLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="aeJ-9a-hce">
                                 <rect key="frame" x="86" y="194" width="242" height="81"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="aeJ-9a-hce" secondAttribute="height" multiplier="203:68" id="CCA-k2-Gdy"/>
@@ -73,7 +73,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mGp-eW-HMc"/>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UPN-cT-Bbg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -745,7 +745,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="9SX-oa-lcI">
             <objects>
-                <tabBarController storyboardIdentifier="CustomTabbarController" automaticallyAdjustsScrollViewInsets="NO" id="xYN-Cc-sBG" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="customTabbarController" automaticallyAdjustsScrollViewInsets="NO" id="xYN-Cc-sBG" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="npw-Nv-5qb"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IhG-w8-2fG">
@@ -779,7 +779,7 @@
         <image name="oursoptBgImg" width="375" height="210"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
-        <image name="soptLogo" width="203" height="68"/>
         <image name="soptLogo-1" width="203" height="68"/>
+        <image name="soptLogo.png" width="203" height="68"/>
     </resources>
 </document>

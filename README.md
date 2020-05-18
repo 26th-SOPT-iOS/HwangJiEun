@@ -14,4 +14,5 @@
 ### 👇🏻 과제 설명 보러가기
 
 - #### 📚 [1주차 과제](./readMEplus/firstAssignment.md ) 📚
-
+- #### 📚 [4주차 공부](./readMEplus/4weekStudying.md ) 📚
+- #### 📚 [4주차 도전과제](./readMEplus/4weekAssignment.md ) 📚

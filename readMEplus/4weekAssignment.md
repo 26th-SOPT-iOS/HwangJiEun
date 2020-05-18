@@ -57,3 +57,10 @@ SignupService.shared.signup(id: joinInputID, pwd: joinInputPWD, name: joinInputN
 setData()함수를 만들어서 JoinViewController(회원가입 뷰컨)으로부터 전달받은 데이터를 셋팅해주었다.
 
 viewWillApper는 뷰가 나타날 때마다 처리되는 함수이므로 이후 viewWillAppear함수에서 setData를 호출해주었다.
+
+
+
+<img style="max-height:100%; max-width:100%;">
+
+<video src="./images/4weekAssignmentVideo.mov" width="300" height="700">
+

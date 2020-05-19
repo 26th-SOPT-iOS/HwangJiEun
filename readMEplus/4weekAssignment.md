@@ -58,9 +58,17 @@ setData()함수를 만들어서 JoinViewController(회원가입 뷰컨)으로부
 
 viewWillApper는 뷰가 나타날 때마다 처리되는 함수이므로 이후 viewWillAppear함수에서 setData를 호출해주었다.
 
+<br>
+
+<image src="./images/4weekAssignmentVideo.gif" width="414px" height="814px"> </image>
 
 
-<img style="max-height:100%; max-width:100%;">
 
-<video src="./images/4weekAssignmentVideo.mov" width="300" height="700">
+
+
+
+
+<br>
+
+<br>
 

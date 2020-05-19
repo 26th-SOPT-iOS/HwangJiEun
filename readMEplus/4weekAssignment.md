@@ -60,7 +60,7 @@ viewWillApper는 뷰가 나타날 때마다 처리되는 함수이므로 이후 
 
 <br>
 
-<image src="./images/4weekAssignmentVideo.gif" width="414px" height="814px"> </image>
+<image src="./images/4weekAssignmentVideo.gif" width="414px" height="896px"> </image>
 
 
 

@@ -28,6 +28,10 @@ class StretchyHeaderController: UIViewController {
         scrollView.contentInsetAdjustmentBehavior = .never
         
     }
+    @IBAction func logoutBtn(_ sender: Any) {
+        UserDefaults.standard.set(false, forKey: UserDefaultKeys.checkautoLogin)
+        self.dismiss(animated: true, completion: nil)
+    }
     
 }
 

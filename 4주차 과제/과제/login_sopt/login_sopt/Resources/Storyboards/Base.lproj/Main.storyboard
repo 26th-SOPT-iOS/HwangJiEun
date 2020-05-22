@@ -51,7 +51,7 @@
                                             <color key="titleColor" red="0.3921568627" green="0.3921568627" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <segue destination="ebR-E1-IG7" kind="push" id="QFU-pS-ZAw"/>
+                                            <segue destination="ebR-E1-IG7" kind="show" id="kP4-nD-duJ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -76,6 +76,16 @@
                                     <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UPN-cT-Bbg"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XFJ-S5-sop" customClass="BEMCheckBox">
+                                <rect key="frame" x="38" y="459" width="18" height="23"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="자동로그인" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCi-G1-gpr">
+                                <rect key="frame" x="69" y="461" width="65" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -86,22 +96,29 @@
                             <constraint firstItem="aeJ-9a-hce" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="86" id="9R0-k3-Qbx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aeJ-9a-hce" secondAttribute="trailing" constant="86" id="9uh-0a-opt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iEK-sg-hPL" secondAttribute="bottom" constant="240" id="D1V-Ls-w14"/>
+                            <constraint firstItem="9jg-3v-yo8" firstAttribute="top" secondItem="TCi-G1-gpr" secondAttribute="bottom" constant="11" id="EwJ-TL-kN3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iEK-sg-hPL" secondAttribute="trailing" constant="70" id="GC8-zA-Cn7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1eg-2N-Vog" secondAttribute="trailing" constant="37" id="OBS-rg-Cp0"/>
                             <constraint firstItem="9jg-3v-yo8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="QM2-mX-yUN"/>
                             <constraint firstItem="dHV-Hu-Jhm" firstAttribute="height" secondItem="1eg-2N-Vog" secondAttribute="height" id="TPM-6a-hok"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TCi-G1-gpr" secondAttribute="trailing" constant="280" id="axe-mb-OSQ"/>
                             <constraint firstItem="aeJ-9a-hce" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="106" id="b85-fn-0A8"/>
                             <constraint firstItem="1eg-2N-Vog" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="bUg-mM-TKW"/>
                             <constraint firstItem="dHV-Hu-Jhm" firstAttribute="top" secondItem="aeJ-9a-hce" secondAttribute="bottom" constant="58" id="bW7-su-fl9"/>
                             <constraint firstItem="dHV-Hu-Jhm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="c9J-ds-sWH"/>
+                            <constraint firstItem="XFJ-S5-sop" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="eKb-4w-M40"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dHV-Hu-Jhm" secondAttribute="trailing" constant="37" id="nfN-xp-pbh"/>
+                            <constraint firstItem="TCi-G1-gpr" firstAttribute="top" secondItem="1eg-2N-Vog" secondAttribute="bottom" constant="10" id="oGX-QB-daF"/>
                             <constraint firstItem="iEK-sg-hPL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="srJ-VA-nRt"/>
+                            <constraint firstItem="9jg-3v-yo8" firstAttribute="top" secondItem="XFJ-S5-sop" secondAttribute="bottom" constant="8" id="tGG-F0-UjJ"/>
                             <constraint firstItem="9jg-3v-yo8" firstAttribute="top" secondItem="1eg-2N-Vog" secondAttribute="bottom" constant="39" id="wdb-np-imQ"/>
+                            <constraint firstItem="XFJ-S5-sop" firstAttribute="top" secondItem="1eg-2N-Vog" secondAttribute="bottom" constant="8" id="zNq-R8-Kfi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="zzn-R0-gWt"/>
                     <connections>
+                        <outlet property="checkBox" destination="XFJ-S5-sop" id="265-5Y-OYi"/>
                         <outlet property="emailTextField" destination="dHV-Hu-Jhm" id="KdN-3R-12W"/>
                         <outlet property="joinBtn" destination="JLf-ye-H2W" id="3f9-3u-UQa"/>
                         <outlet property="loginBtn" destination="9jg-3v-yo8" id="xFB-sI-uaH"/>
@@ -110,7 +127,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="388" y="88.605697151424295"/>
+            <point key="canvasLocation" x="386.95652173913044" y="88.392857142857139"/>
         </scene>
         <!--홈-->
         <scene sceneID="7yP-bG-N9g">
@@ -460,6 +477,17 @@
                                                     </stackView>
                                                 </subviews>
                                             </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVB-cL-4F9">
+                                                <rect key="frame" x="346" y="100" width="60" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                                <state key="normal" title=" Logout ">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="logoutBtn:" destination="faf-Qt-2kq" eventType="touchUpInside" id="A6l-AC-ypg"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
@@ -507,7 +535,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uWd-4R-8vZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2093" y="123"/>
+            <point key="canvasLocation" x="2186" y="88"/>
         </scene>
         <!--친구-->
         <scene sceneID="OGg-Ue-Gdf">
@@ -617,7 +645,7 @@
         <!--Join View Controller-->
         <scene sceneID="eCN-rR-ECT">
             <objects>
-                <viewController id="ebR-E1-IG7" customClass="JoinViewController" customModule="login_sopt" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="join" id="ebR-E1-IG7" customClass="JoinViewController" customModule="login_sopt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Da7-eX-LjG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

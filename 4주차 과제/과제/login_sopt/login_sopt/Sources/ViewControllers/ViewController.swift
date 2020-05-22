@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import BEMCheckBox
 
 class ViewController: UIViewController {
     @IBOutlet var emailTextField: UITextField!
@@ -16,12 +17,16 @@ class ViewController: UIViewController {
     @IBOutlet var joinBtn: UIButton!
     var id:String?
     var password:String?
+    var isOn:Bool?
     
     
     let yourAttributes: [NSAttributedString.Key: Any] = [
     .font: UIFont.systemFont(ofSize: 15),
     .foregroundColor: UIColor.gray,
     .underlineStyle: NSUnderlineStyle.single.rawValue]
+    
+    @IBOutlet var checkBox: BEMCheckBox!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,10 +48,28 @@ class ViewController: UIViewController {
         let attributeString = NSMutableAttributedString(string: "회원가입 하기",attributes: yourAttributes)
         joinBtn.setAttributedTitle(attributeString, for: .normal)
         
-
+//
+//        guard let autoid = UserDefaults.standard.string(forKey: "id") else { return }
+//        guard let autopwd = UserDefaults.standard.string(forKey: "pwd") else { return }
+        autoLogin()
+     
     }
-   override func viewWillAppear(_ animated: Bool) {
+    
+      override func viewWillAppear(_ animated: Bool) {
     setData()
+}
+    
+    func autoLogin(){
+       
+            if UserDefaults.standard.bool(forKey: UserDefaultKeys.checkautoLogin ) {
+               guard let tabbarController = self.storyboard?.instantiateViewController(identifier: "customTabbarController") as? UITabBarController else {return}
+                tabbarController.modalPresentationStyle = .fullScreen
+                self.present(tabbarController, animated: true, completion: nil)
+                
+           
+                    
+            }
+        
     }
     
     @IBAction func login(_ sender: UIButton) {
@@ -57,7 +80,12 @@ class ViewController: UIViewController {
             networkResult in
             switch networkResult{
             case .success(let token):
-                guard let token = token as? String else {return}
+                if self.checkBox.on {
+                    UserDefaults.standard.set(true, forKey: UserDefaultKeys.checkautoLogin)
+//                    UserDefaults.standard.set(inputID, forKey: "autoid")
+//                    UserDefaults.standard.set(inputPWD, forKey: "autopwd")
+                }
+             guard let token = token as? String else {return}
                 UserDefaults.standard.set(token, forKey: "token")
               
                 guard let tabbarController = self.storyboard?.instantiateViewController(identifier: "customTabbarController") as? UITabBarController else {return}
@@ -78,6 +106,7 @@ class ViewController: UIViewController {
         
     }
     
+    
     func setData(){
         guard let id = self.id else {return}
         guard let password = self.password else {return}
@@ -85,7 +114,8 @@ class ViewController: UIViewController {
         emailTextField.text = id
         passwordTextField.text = password
        }
-       
+    
+  
 
     
 }

@@ -22,7 +22,6 @@ struct SigninData: Codable {
     }
     
 
-    
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         status = (try? values.decode(Int.self, forKey: .status)) ?? -1

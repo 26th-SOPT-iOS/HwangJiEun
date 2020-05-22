@@ -28,6 +28,7 @@
 		33054683246DB518000B8975 /* buzz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3305467E246DB518000B8975 /* buzz.jpg */; };
 		33054684246DB518000B8975 /* sherly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3305467F246DB518000B8975 /* sherly.jpg */; };
 		33054686246DB7A0000B8975 /* beauty_1585659625845.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 33054685246DB7A0000B8975 /* beauty_1585659625845.jpeg */; };
+		335B72C224781C1B00DCBF67 /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B72C124781C1B00DCBF67 /* UserDefaultKeys.swift */; };
 		33A7FFDC246FB876001D3414 /* soptLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A7FFD9246FB875001D3414 /* soptLogo.png */; };
 		33A7FFDD246FB876001D3414 /* soptLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A7FFDA246FB875001D3414 /* soptLogo@2x.png */; };
 		33A7FFDE246FB876001D3414 /* soptLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A7FFDB246FB875001D3414 /* soptLogo@3x.png */; };
@@ -92,6 +93,7 @@
 		3305467E246DB518000B8975 /* buzz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = buzz.jpg; path = login_sopt/buzz.jpg; sourceTree = SOURCE_ROOT; };
 		3305467F246DB518000B8975 /* sherly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sherly.jpg; path = login_sopt/sherly.jpg; sourceTree = SOURCE_ROOT; };
 		33054685246DB7A0000B8975 /* beauty_1585659625845.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beauty_1585659625845.jpeg; path = login_sopt/beauty_1585659625845.jpeg; sourceTree = SOURCE_ROOT; };
+		335B72C124781C1B00DCBF67 /* UserDefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
 		33A7FFD9246FB875001D3414 /* soptLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soptLogo.png; path = login_sopt/soptLogo.png; sourceTree = SOURCE_ROOT; };
 		33A7FFDA246FB875001D3414 /* soptLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "soptLogo@2x.png"; path = "login_sopt/soptLogo@2x.png"; sourceTree = SOURCE_ROOT; };
 		33A7FFDB246FB875001D3414 /* soptLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "soptLogo@3x.png"; path = "login_sopt/soptLogo@3x.png"; sourceTree = SOURCE_ROOT; };
@@ -217,6 +219,7 @@
 				33A7FFE6246FBCE6001D3414 /* LoginService.swift */,
 				33A7FFE8246FC9F6001D3414 /* SignupData.swift */,
 				33A7FFEA246FCB0F001D3414 /* SignupService.swift */,
+				335B72C124781C1B00DCBF67 /* UserDefaultKeys.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335B72C224781C1B00DCBF67 /* UserDefaultKeys.swift in Sources */,
 				33C00C3D2458A71F00B39BC5 /* ViewController.swift in Sources */,
 				33A7FFE9246FC9F6001D3414 /* SignupData.swift in Sources */,
 				33A7FFE7246FBCE6001D3414 /* LoginService.swift in Sources */,

@@ -1,0 +1,6 @@
+framework module Pods_idusProject {
+  umbrella header "Pods-idusProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
